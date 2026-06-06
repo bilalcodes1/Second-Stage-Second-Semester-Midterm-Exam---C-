@@ -1,22 +1,30 @@
 # Second Stage – Second Semester Midterm Exam C++ Solutions
 
-C++ solutions for **Second Stage – Second Semester Midterm Exam** questions.
+C++ Object-Oriented Programming solutions for **Second Stage – Second Semester Midterm Exam** questions.
 
-This repository contains solved C++ Object-Oriented Programming examples focused on university exam-style questions. The solutions demonstrate important OOP concepts such as classes, constructors, destructors, object relationships, references, and composition.
+This repository contains solved C++ examples created to help students understand and review important OOP concepts such as classes, constructors, destructors, object relationships, references, and composition.
+
+---
+
+## YouTube Explanation
+
+The explanation is available on my YouTube channel:
+
+🔗 [Bilal Codes on YouTube](https://www.youtube.com/@bilalcodes1)
 
 ---
 
 ## Project Overview
 
-This project was created to help students understand and review C++ OOP exam questions through practical solved examples.
+This project was created as an educational resource for students studying C++ Object-Oriented Programming.
 
-The code examples are written in a simple and educational style, making them suitable for students who are learning Object-Oriented Programming in C++.
+The examples are written in a simple and clear style to make the main ideas easy to understand, especially for students preparing for exams or reviewing university OOP material.
 
 ---
 
 ## Covered Concepts
 
-The solutions in this repository cover:
+This repository covers several important C++ OOP concepts:
 
 * Classes and objects
 * Constructors
@@ -26,9 +34,11 @@ The solutions in this repository cover:
 * Object composition
 * Reference members
 * Object lifetime
+* Constructor execution order
+* Destructor execution order
 * Calling methods between related objects
-* Basic performance calculation using object data
-* University exam-style C++ practice
+* Simple calculations using object data
+* University exam-style problem solving
 
 ---
 
@@ -42,22 +52,23 @@ This example models a computer system using three classes:
 * `Ram`
 * `Computer`
 
-The `Computer` class contains references to `Cpu` and `Ram` objects, showing how objects can be connected together using composition-style relationships.
+The `Computer` class uses references to `Cpu` and `Ram` objects. This demonstrates how objects can be connected together using composition-style relationships.
 
 Main ideas shown:
 
-* Creating objects
-* Constructor execution order
-* Destructor execution order
+* Creating multiple objects
 * Passing objects by reference
+* Using constructors
+* Using destructors
 * Displaying object information
 * Calculating a simple performance score
+* Understanding object lifetime
 
 ---
 
 ### 2. Smartphone Composition Example
 
-This example models a smartphone system using:
+This example models a smartphone system using these classes:
 
 * `Screen`
 * `Battery`
@@ -279,15 +290,16 @@ int main() {
 
 ## Notes About the Solutions
 
-These examples are written for learning purposes.
+These examples are written for educational purposes.
 
-Some small improvements were applied to make the code cleaner, such as:
+Some improvements were applied to make the code cleaner and easier to understand:
 
-* Using `double` for CPU speed instead of returning it as `int`
-* Improving function names such as `getSpeed()` and `performanceScore()`
-* Printing battery capacity inside `turnOn()`
-* Initializing default camera values clearly
-* Improving output formatting
+* Used `double` for CPU speed
+* Improved method naming such as `getSpeed()` and `performanceScore()`
+* Printed battery capacity clearly inside `turnOn()`
+* Initialized default camera values clearly
+* Improved output formatting
+* Organized the examples for easier reading
 
 ---
 
@@ -312,21 +324,26 @@ You can run the code using any C++ IDE such as:
 
 ---
 
-## YouTube Explanation
-
-A video explanation is available on my YouTube channel.
-
-Add the video link here:
+## Suggested Repository Topics
 
 ```txt
-https://youtube.com/your-video-link
+cpp
+cplusplus
+oop
+object-oriented-programming
+constructors
+destructors
+composition
+university-exam
+anbar-university
+exam-solutions
 ```
 
 ---
 
 ## Purpose
 
-The purpose of this repository is to help second-stage Computer Science students review OOP concepts through solved midterm exam questions.
+The purpose of this repository is to help second-stage Computer Science students review C++ OOP concepts through solved midterm exam questions.
 
 It can be used for:
 
@@ -335,6 +352,7 @@ It can be used for:
 * Understanding constructors and destructors
 * Practicing class relationships in C++
 * Learning object composition examples
+* Following along with the YouTube explanation
 
 ---
 
@@ -345,6 +363,7 @@ Computer Science Student
 University of Anbar
 
 GitHub: [@bilalcodes1](https://github.com/bilalcodes1)
+YouTube: [Bilal Codes](https://www.youtube.com/@bilalcodes1)
 
 ---
 
